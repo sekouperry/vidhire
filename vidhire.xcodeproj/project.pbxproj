@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B42763C1D10ADDB00ACAEF3 /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B42763B1D10ADDB00ACAEF3 /* GoogleService-Info-3.plist */; };
+		8B42763E1D10B0B900ACAEF3 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B42763D1D10B0B900ACAEF3 /* Firebase.framework */; };
+		8B4276401D10B0CD00ACAEF3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B42763F1D10B0CD00ACAEF3 /* AddressBook.framework */; };
+		8B4276421D10B0D400ACAEF3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4276411D10B0D400ACAEF3 /* CFNetwork.framework */; };
+		8B4276441D10B0E100ACAEF3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4276431D10B0E100ACAEF3 /* CoreLocation.framework */; };
 		8B5399631D03CEFE00E7DDA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5399621D03CEFE00E7DDA2 /* AppDelegate.swift */; };
 		8B5399651D03CEFE00E7DDA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5399641D03CEFE00E7DDA2 /* ViewController.swift */; };
 		8B5399681D03CEFE00E7DDA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5399661D03CEFE00E7DDA2 /* Main.storyboard */; };
@@ -19,9 +24,17 @@
 		8B5399801D05D62700E7DDA2 /* JobOfferVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B53997F1D05D62700E7DDA2 /* JobOfferVC.swift */; };
 		8B5399881D0625C700E7DDA2 /* Jobinterview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5399871D0625C700E7DDA2 /* Jobinterview.swift */; };
 		8B53998A1D0627BC00E7DDA2 /* Jobnow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5399891D0627BC00E7DDA2 /* Jobnow.swift */; };
+		90D6C7E055908F1EA713957B /* Pods_vidhire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377DA535DEDAFC5E5EFC8630 /* Pods_vidhire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		101F4B6AD6217CD088FEEADB /* Pods-vidhire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vidhire.release.xcconfig"; path = "Pods/Target Support Files/Pods-vidhire/Pods-vidhire.release.xcconfig"; sourceTree = "<group>"; };
+		377DA535DEDAFC5E5EFC8630 /* Pods_vidhire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vidhire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B42763B1D10ADDB00ACAEF3 /* GoogleService-Info-3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-3.plist"; path = "../../../Downloads/GoogleService-Info-3.plist"; sourceTree = "<group>"; };
+		8B42763D1D10B0B900ACAEF3 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = "../../Library/Developer/Xcode/DerivedData/vidhire-droiwbqpsrenenayqkdqizwwghse/Build/Products/Debug-iphonesimulator/Firebase/Firebase.framework"; sourceTree = "<group>"; };
+		8B42763F1D10B0CD00ACAEF3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		8B4276411D10B0D400ACAEF3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8B4276431D10B0E100ACAEF3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		8B53995F1D03CEF900E7DDA2 /* vidhire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vidhire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5399621D03CEFE00E7DDA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B5399641D03CEFE00E7DDA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +49,7 @@
 		8B53997F1D05D62700E7DDA2 /* JobOfferVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobOfferVC.swift; sourceTree = "<group>"; };
 		8B5399871D0625C700E7DDA2 /* Jobinterview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jobinterview.swift; sourceTree = "<group>"; };
 		8B5399891D0627BC00E7DDA2 /* Jobnow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jobnow.swift; sourceTree = "<group>"; };
+		DC159047DA383772B844EDCB /* Pods-vidhire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vidhire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vidhire/Pods-vidhire.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +57,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4276441D10B0E100ACAEF3 /* CoreLocation.framework in Frameworks */,
+				8B4276421D10B0D400ACAEF3 /* CFNetwork.framework in Frameworks */,
+				8B4276401D10B0CD00ACAEF3 /* AddressBook.framework in Frameworks */,
+				8B42763E1D10B0B900ACAEF3 /* Firebase.framework in Frameworks */,
+				90D6C7E055908F1EA713957B /* Pods_vidhire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6402E131E1EABA524815D5B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC159047DA383772B844EDCB /* Pods-vidhire.debug.xcconfig */,
+				101F4B6AD6217CD088FEEADB /* Pods-vidhire.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8B5399561D03CEF800E7DDA2 = {
 			isa = PBXGroup;
 			children = (
 				8B5399611D03CEFE00E7DDA2 /* vidhire */,
 				8B5399601D03CEF900E7DDA2 /* Products */,
+				6402E131E1EABA524815D5B4 /* Pods */,
+				BE0D8D948998E8BDF4C4D6D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +103,7 @@
 				8B53997C1D04E70400E7DDA2 /* util */,
 				8B5399771D048DFC00E7DDA2 /* view */,
 				8B5399661D03CEFE00E7DDA2 /* Main.storyboard */,
+				8B42763B1D10ADDB00ACAEF3 /* GoogleService-Info-3.plist */,
 				8B5399691D03CEFF00E7DDA2 /* Assets.xcassets */,
 				8B53996B1D03CEFF00E7DDA2 /* LaunchScreen.storyboard */,
 				8B53996E1D03CEFF00E7DDA2 /* Info.plist */,
@@ -109,6 +140,18 @@
 			name = util;
 			sourceTree = "<group>";
 		};
+		BE0D8D948998E8BDF4C4D6D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B4276431D10B0E100ACAEF3 /* CoreLocation.framework */,
+				8B4276411D10B0D400ACAEF3 /* CFNetwork.framework */,
+				8B42763F1D10B0CD00ACAEF3 /* AddressBook.framework */,
+				8B42763D1D10B0B900ACAEF3 /* Firebase.framework */,
+				377DA535DEDAFC5E5EFC8630 /* Pods_vidhire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B5399711D03CEFF00E7DDA2 /* Build configuration list for PBXNativeTarget "vidhire" */;
 			buildPhases = (
+				514DD00BAF1593B7281C21F4 /* [CP] Check Pods Manifest.lock */,
 				8B53995B1D03CEF900E7DDA2 /* Sources */,
 				8B53995C1D03CEF900E7DDA2 /* Frameworks */,
 				8B53995D1D03CEF900E7DDA2 /* Resources */,
+				5C7D98904B6ED4D932A68974 /* [CP] Embed Pods Frameworks */,
+				945DCE4A0A0ACA9EE53AE689 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,10 +217,59 @@
 				8B53996A1D03CEFF00E7DDA2 /* Assets.xcassets in Resources */,
 				8B53997E1D0501F600E7DDA2 /* job.csv in Resources */,
 				8B5399681D03CEFE00E7DDA2 /* Main.storyboard in Resources */,
+				8B42763C1D10ADDB00ACAEF3 /* GoogleService-Info-3.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		514DD00BAF1593B7281C21F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C7D98904B6ED4D932A68974 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vidhire/Pods-vidhire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		945DCE4A0A0ACA9EE53AE689 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vidhire/Pods-vidhire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B53995B1D03CEF900E7DDA2 /* Sources */ = {
@@ -299,6 +394,7 @@
 		};
 		8B5399721D03CEFF00E7DDA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC159047DA383772B844EDCB /* Pods-vidhire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = vidhire/Info.plist;
@@ -310,6 +406,7 @@
 		};
 		8B5399731D03CEFF00E7DDA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101F4B6AD6217CD088FEEADB /* Pods-vidhire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = vidhire/Info.plist;

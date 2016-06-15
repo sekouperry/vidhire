@@ -1,0 +1,6 @@
+framework module Pods_vidhire {
+  umbrella header "Pods-vidhire-umbrella.h"
+
+  export *
+  module * { export * }
+}
